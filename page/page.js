@@ -1,5 +1,5 @@
 /**
- * ロードが終わったら 「GET /welcome-message」でサーバーにアクセスする
+ * ロードが終わったら 「GET /home-page」でサーバーにアクセスする
  */
 window.onload = async () => {
     const response = await fetch('/home-page');
